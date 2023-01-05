@@ -13,12 +13,9 @@
 
   rl.on('line', (line: string) => {
     const year = parseInt(line);
-
-    if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
-      console.log(1);
-    } else {
-      console.log(0);
-    }
+    console.log(
+      (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0 ? 1 : 0
+    );
     rl.close();
   });
 
