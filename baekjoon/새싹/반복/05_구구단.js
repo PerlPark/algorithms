@@ -1,6 +1,6 @@
 /**
  *  BAEKJOON ONLINE JUDGE
- *  https://www.acmicpc.net/problem/10952
+ *  https://www.acmicpc.net/problem/2739
  */
 
 {
