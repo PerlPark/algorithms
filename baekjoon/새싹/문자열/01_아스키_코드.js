@@ -3,5 +3,5 @@
  *  https://www.acmicpc.net/problem/11654
  */
 
-const string = require('fs').readFileSync('test.txt').toString().trim();
+const string = require('fs').readFileSync('/dev/stdin').toString().trim();
 console.log(string.charCodeAt());
