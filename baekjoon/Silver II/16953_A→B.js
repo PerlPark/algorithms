@@ -15,8 +15,7 @@ const visited = [];
 let count = 0;
 
 while (b > a) {
-  const last = b.toString().slice(-1);
-  if (last === '1') {
+  if (b % 10 === 1) {
     b -= 1;
     b /= 10;
   } else {
