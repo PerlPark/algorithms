@@ -10,7 +10,7 @@
  */
 
 let [a, b] = `${require('fs').readFileSync('/dev/stdin')}`.trim().split(' ').map(Number);
-let count = 0;
+let count = 1;
 
 while (b > a) {
   if (b % 10 === 1) {
@@ -22,4 +22,4 @@ while (b > a) {
   count += 1;
 }
 
-console.log(a === b ? count + 1 : -1);
+console.log(a === b ? count : -1);
