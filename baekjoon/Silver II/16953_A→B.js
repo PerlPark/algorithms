@@ -10,8 +10,6 @@
  */
 
 let [a, b] = `${require('fs').readFileSync('/dev/stdin')}`.trim().split(' ').map(Number);
-
-const visited = [];
 let count = 0;
 
 while (b > a) {
