@@ -1,6 +1,6 @@
 """
  *  BAEKJOON ONLINE JUDGE
- *  https://www.acmicpc.net/problem/2164
+ *  https://www.acmicpc.net/problem/1929
 """
 
 import math
