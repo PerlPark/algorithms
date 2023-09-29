@@ -8,7 +8,7 @@
 
 /*
 최소 힙의 성질: 항상 루트가 최소 값이다.
-루트 값 삭제 후 자섹 노드와 교환할 때 더 작은 값과 교환
+루트 값 삭제 후 자식 노드와 교환할 때 더 작은 값과 교환
 */
 
 const [n, ...inputs] = `${require('fs').readFileSync('/dev/stdin')}`.trim().split(/\s/).map(Number);
